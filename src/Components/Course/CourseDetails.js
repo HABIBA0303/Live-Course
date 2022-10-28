@@ -31,12 +31,6 @@ const CourseDetails = () => {
               )}
             </ReactToPdf>
 
-            {/* 
-            <button
-
-
-
-              className='btn btn-outline gap-2 shadow-lg hover:bg-slate-600 hover:border-0'> Download pdf <FaFilePdf className='text-2xl'> </FaFilePdf></button> */}
 
 
           </div>
