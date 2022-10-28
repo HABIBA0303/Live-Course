@@ -1,8 +1,10 @@
 import React, { useContext } from 'react';
+import { Link } from 'react-router-dom';
+
 import { FcGoogle, } from "react-icons/fc";
 import { FaGithub } from "react-icons/fa";
-import { Link } from 'react-router-dom';
-import { AuthContext } from '../UseContext/Usecontext';
+import { AuthContext } from '../UserContext/Usecontext';
+
 
 const Signup = () => {
     const { createUser, signInWithGoogle } = useContext(AuthContext)

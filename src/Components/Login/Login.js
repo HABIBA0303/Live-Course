@@ -1,6 +1,9 @@
-import React, { useContext } from 'react';
+import { useContext } from 'react';
 import { Link } from 'react-router-dom';
-import { AuthContext } from '../UseContext/Usecontext';
+import { AuthContext } from '../UserContext/Usecontext';
+import './Login.css'
+
+
 
 const Login = () => {
     const { singIn } = useContext(AuthContext)
@@ -36,6 +39,7 @@ const Login = () => {
                 <input className='btn-submit' type="submit" value="Login" />
             </form>
             <p>Live Course <Link className='underline text-blue-300 p-' to='/signup'>Create a New Account</Link></p>
+
         </div>
     );
 };

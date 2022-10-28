@@ -1,6 +1,9 @@
-import React, { useContext, useEffect, useState } from 'react';
+import React, { useEffect, useState } from 'react';
+import { useContext } from 'react';
+
 import { Link } from 'react-router-dom';
-import { AuthContext } from '../UseContext/Usecontext';
+import { AuthContext } from '../UserContext/Usecontext';
+
 
 const Header = () => {
     const { user, logOut } = useContext(AuthContext)
